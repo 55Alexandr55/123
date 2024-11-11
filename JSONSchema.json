@@ -28,12 +28,17 @@
               "description": "Ім'я користувача"
             }
           },
-          "required": ["login", "password", "email", "useName"]
+          "required": [
+            "login",
+            "password",
+            "email",
+            "useName"
+          ]
         }
       }
     },
-    "Trener": {
-      "description": "Trainer details",
+    "Experts": {
+      "description": "Experts details",
       "type": "object",
       "patternProperties": {
         "^[0-9]+$": {
@@ -41,14 +46,17 @@
           "properties": {
             "specialization": {
               "type": "string",
-              "description": "Спеціалізація тренера"
+              "description": "Спеціалізація єксперта"
             },
             "user id": {
               "type": "integer",
               "description": "ID користувача"
             }
           },
-          "required": ["specialization", "user id"]
+          "required": [
+            "specialization",
+            "user id"
+          ]
         }
       }
     },
@@ -73,7 +81,11 @@
               "description": "ID користувача"
             }
           },
-          "required": ["purpose", "date", "user id"]
+          "required": [
+            "purpose",
+            "date",
+            "user id"
+          ]
         }
       }
     },
@@ -98,12 +110,16 @@
               "description": "ID запиту"
             }
           },
-          "required": ["response text", "date", "request id"]
+          "required": [
+            "response text",
+            "date",
+            "request id"
+          ]
         }
       }
     },
     "Expense record": {
-      "description": "Expense details",
+      "description": "User sleep data",
       "type": "object",
       "patternProperties": {
         "^[0-9]+$": {
@@ -122,7 +138,11 @@
               "description": "ID користувача"
             }
           },
-          "required": ["Weight", "Training time", "user id"]
+          "required": [
+            "Weight",
+            "Training time",
+            "user id"
+          ]
         }
       }
     },
@@ -142,10 +162,20 @@
               "description": "ID користувача"
             }
           },
-          "required": ["response text", "user id"]
+          "required": [
+            "response text",
+            "user id"
+          ]
         }
       }
     }
   },
-  "required": ["Users", "Trener", "Request for new sets of exercises", "Answer to the requests", "Expense record", "Motivational message"]
+  "required": [
+    "Users",
+    "Experts",
+    "Request for new sets of exercises",
+    "Answer to the requests",
+    "User sleep data",
+    "Motivational message"
+  ]
 }
