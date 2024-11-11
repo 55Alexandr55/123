@@ -31,6 +31,13 @@
       "user id": 1
     }
   },
+  "Request for up-to-date information on sports events": {
+    "1": {
+      "purpose": "Я хочу отримати свіжі спортивні новини ",
+      "date": "11.11.2024",
+      "user id": 1
+    }
+  },
   "Answer to the requests": {
     "1": {
       "response text": "Ось ваші данні по забеспечені безпеки на робочому місці: https://triniti-sb.com.ua/blog/zabezpechennia-bezpeky-na-robochomu-mistsi-zasoby-zakhystu-v-suchasnykh-orhanizatsiiakh/",
@@ -45,26 +52,17 @@
   },
   "User sleep data": {
     "1": {
-      "Sleep time": "7.12.00",
+      "Number of hours of sleep": "5.12.00",
       "user id": 1,
       "date": "10.11.2024"
     },
     "2": {
-      "Sleep time": "6.27.00",
+      "Number of hours of sleep": "6.27.00",
       "user id": 1,
       "date": "11.11.2024"
     }
   },
-  "Motivational message": {
-    "1": {
-      "response text": "Ти молодець! З кожним разом результат в тебе краще. Дуже стараєшся, але можна зменшити час тренування. ",
-      "user id": 1
-    },
-    "2": {
-      "response text": "Вау, гарний результат,можу порекомендувати інші вправи! ",
-      "user id": 1
-    }
-  },
+
   "User request for consultation": {
     "1": {
       "purpose": "Я хочу отримати консультацію з Медичним експертом по поводу поганого сну ",
