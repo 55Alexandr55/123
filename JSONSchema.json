@@ -89,6 +89,35 @@
         }
       }
     },
+    "Request for up-to-date information on sports events": {
+      "description": "Request details",
+      "type": "object",
+      "patternProperties": {
+        "^[0-9]+$": {
+          "type": "object",
+          "properties": {
+            "purpose": {
+              "type": "string",
+              "description": "Мета запиту на актуальну інформацію про спортивні події"
+            },
+            "date": {
+              "type": "string",
+              "format": "date",
+              "description": "Дата запиту"
+            },
+            "user id": {
+              "type": "integer",
+              "description": "ID користувача"
+            }
+          },
+          "required": [
+            "purpose",
+            "date",
+            "user id"
+          ]
+        }
+      }
+    },
     "Answer to the requests": {
       "description": "Response details",
       "type": "object",
@@ -173,9 +202,10 @@
   "required": [
     "Users",
     "Experts",
-    "Request for new sets of exercises",
+    "Request for training materials, data and courses",
+    "Request for up-to-date information on sports events",
     "Answer to the requests",
-    "User sleep data",
+    "Expense record",
     "Motivational message"
   ]
 }
