@@ -15,7 +15,7 @@
   },
   "Expert": {
     "1": {
-      "specialization": "Медичний Експерт",
+      "specialization": "Інформаційний Експерт",
       "user id": 2
     }
   },
@@ -43,16 +43,16 @@
       "request id": 2
     }
   },
-  "Expense record": {
+  "User sleep data": {
     "1": {
-      "Weight": "55",
-      "Training time": "80хв.",
-      "user id": 1
+      "Sleep time": "7.12.00",
+      "user id": 1,
+      "date": "10.11.2024"
     },
     "2": {
-      "Weight": "50",
-      "Training time": "40хв.",
-      "user id": 1
+      "Sleep time": "6.27.00",
+      "user id": 1,
+      "date": "11.11.2024"
     }
   },
   "Motivational message": {
@@ -62,6 +62,13 @@
     },
     "2": {
       "response text": "Вау, гарний результат,можу порекомендувати інші вправи! ",
+      "user id": 1
+    }
+  },
+  "User request for consultation": {
+    "1": {
+      "purpose": "Я хочу отримати консультацію з Медичним експертом по поводу поганого сну ",
+      "date": "11.11.2024",
       "user id": 1
     }
   }
