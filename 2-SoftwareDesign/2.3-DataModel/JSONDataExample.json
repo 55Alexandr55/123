@@ -5,34 +5,40 @@
       "password": "24062004",
       "email": "tsvetk@gmail.com",
       "useName": "Olexandr Tsvetkov"
+    },
+    "2": {
+      "login": "Sapenko",
+      "password": "55522212",
+      "email": "sapenko@gmail.com",
+      "useName": "Victor Sapenko"
     }
   },
   "Expert": {
     "1": {
-      "specialization": "Експерт по забеспеченню беспеки праці",
-      "user id": 3
+      "specialization": "Медичний Експерт",
+      "user id": 2
     }
   },
-  "Request for new sets of exercises": {
+  "Request for training materials, data and courses": {
     "1": {
-      "purpose": "Я хотіла б отримати нові комплекси вправ для тренування на все тіло, будь-ласка1",
+      "purpose": "Я хочу отримати Данні по забеспеченню і управлінням безпеки праці на робочому місці ",
       "date": "11.11.2024",
       "user id": 1
     },
     "2": {
-      "purpose": "Хотілось комплекси по-складніше,будь-ласка!",
+      "purpose": "Хочу доступ до курсу по аналізу статистичних данних",
       "date": "11.11.2024",
       "user id": 1
     }
   },
   "Answer to the requests": {
     "1": {
-      "response text": "Ось такий варіант: 1.https://www.youtube.com/watch?v=mgO-fyMgY84",
+      "response text": "Ось ваші данні по забеспечені безпеки на робочому місці: https://triniti-sb.com.ua/blog/zabezpechennia-bezpeky-na-robochomu-mistsi-zasoby-zakhystu-v-suchasnykh-orhanizatsiiakh/",
       "date": "11.11.2024",
       "request id": 1
     },
     "2": {
-      "response text": "Ось такі вправи: 1.https://www.youtube.com/watch?v=I6xjhwN_wVw",
+      "response text": "Ось ваш курс по аналізу статистичних данних:https://prometheus.org.ua/course/course-v1:IRF+Stat101+2016_T3",
       "date": "11.11.2024",
       "request id": 2
     }
