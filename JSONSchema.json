@@ -147,30 +147,31 @@
         }
       }
     },
-    "Expense record": {
+    "User sleep data": {
       "description": "User sleep data",
       "type": "object",
       "patternProperties": {
         "^[0-9]+$": {
           "type": "object",
           "properties": {
-            "Weight": {
+            "Number of hours of sleep": {
               "type": "string",
-              "description": "Вага"
-            },
-            "Training time": {
-              "type": "string",
-              "description": "Час тренування"
+              "description": "Кількість часу спить користувач"
             },
             "user id": {
               "type": "integer",
               "description": "ID користувача"
+            },
+            "date": {
+              "type": "string",
+              "format": "date",
+              "description": "Дата"
             }
           },
           "required": [
-            "Weight",
-            "Training time",
-            "user id"
+            "Number of hours of sleep",
+            "user id",
+            "date"
           ]
         }
       }
@@ -205,7 +206,7 @@
     "Request for training materials, data and courses",
     "Request for up-to-date information on sports events",
     "Answer to the requests",
-    "Expense record",
+    "User sleep data",
     "Motivational message"
   ]
 }
