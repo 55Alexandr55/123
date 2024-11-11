@@ -3,20 +3,14 @@
     "1": {
       "login": "Tsvetkov",
       "password": "24062004",
-      "email": "tsvetkov@gmail.com",
+      "email": "tsvetk@gmail.com",
       "useName": "Olexandr Tsvetkov"
     }
   },
   "Expert": {
     "1": {
-      "specialization": "Медичний Експерт",
-      "user id": 1
-    }
-  },
-  "Expert": {
-    "1": {
-      "specialization": "",
-      "user id":
+      "specialization": "Експерт по забеспеченню беспеки праці",
+      "user id": 3
     }
   },
   "Request for new sets of exercises": {
