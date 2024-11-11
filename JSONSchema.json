@@ -69,7 +69,7 @@
           "properties": {
             "purpose": {
               "type": "string",
-              "description": "Мета запиту на тренувальні матеріали,данні і курси"
+              "description": "Мета запиту на навчальні матеріали, данні і курси"
             },
             "date": {
               "type": "string",
@@ -176,16 +176,21 @@
         }
       }
     },
-    "Motivational message": {
-      "description": "Motivational message details",
+    "User request for consultation": {
+      "description": "Request details",
       "type": "object",
       "patternProperties": {
         "^[0-9]+$": {
           "type": "object",
           "properties": {
-            "response text": {
+            "purpose": {
               "type": "string",
-              "description": "Текст мотиваційного повідомлення"
+              "description": "Текст запиту на індивідуальну консультацію"
+            },
+            "date": {
+              "type": "string",
+              "format": "date",
+              "description": "Дата запиту"
             },
             "user id": {
               "type": "integer",
@@ -193,7 +198,8 @@
             }
           },
           "required": [
-            "response text",
+            "purpose",
+            "date",
             "user id"
           ]
         }
@@ -207,6 +213,6 @@
     "Request for up-to-date information on sports events",
     "Answer to the requests",
     "User sleep data",
-    "Motivational message"
+    "User request for consultation"
   ]
 }
